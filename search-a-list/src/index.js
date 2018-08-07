@@ -1,8 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+const myList = [
+  {
+    id: 1,
+    name: "item 1",
+  },
+  {
+    id: 2,
+    name: "item 2",
+  }
+]
+// ReactDOM.render(<SearchableList list={myList}/>, document.getElementById('root'));
