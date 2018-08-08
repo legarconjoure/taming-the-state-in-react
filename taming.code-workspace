@@ -1,11 +1,14 @@
 {
-	"folders": [
-		{
-			"path": "local-state-in-react"
-		},
-		{
-			"path": "search-a-list"
-		}
-	],
+    "folders": [
+        {
+            "path": "local-state-in-react"
+        },
+        {
+            "path": "search-a-list"
+        },
+        {
+            "path": "redux-standalone"
+        }
+    ],
 	"settings": {}
 }
