@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { SearchableList } from './SearchableListDownLifting';
+import { ArchiveableList } from './ArchiveableList';
+import ListWithArchive from './ArchiveableListHOC';
 
 const myList = [
   {
@@ -13,4 +15,6 @@ const myList = [
   }
 ]
 // ReactDOM.render(<SearchableList list={myList}/>, document.getElementById('root'));
-ReactDOM.render(<SearchableList list={myList}/>, document.getElementById('root'));
+// ReactDOM.render(<SearchableList list={myList}/>, document.getElementById('root'));
+// ReactDOM.render(<ArchiveableList list={myList}/>, document.getElementById('root'));
+ReactDOM.render(<ListWithArchive list={myList}/>, document.getElementById('root'));
