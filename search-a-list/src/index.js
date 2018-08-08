@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { SearchableList } from './SearchableListDownLifting';
 
 const myList = [
   {
@@ -12,3 +13,4 @@ const myList = [
   }
 ]
 // ReactDOM.render(<SearchableList list={myList}/>, document.getElementById('root'));
+ReactDOM.render(<SearchableList list={myList}/>, document.getElementById('root'));
