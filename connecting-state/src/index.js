@@ -87,4 +87,4 @@ function TodoApp() {
   return <div>Todo App</div>
 }
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<TodoApp />, document.getElementById('root'));
