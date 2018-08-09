@@ -8,6 +8,9 @@
         },
         {
             "path": "redux-standalone"
+        },
+        {
+            "path": "connecting-state"
         }
     ],
 	"settings": {}
