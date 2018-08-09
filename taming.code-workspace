@@ -11,6 +11,12 @@
         },
         {
             "path": "connecting-state"
+        },
+        {
+            "path": "naive-todo-react-redux"
+        },
+        {
+            "path": "sophisticated-todo-react-redux"
         }
     ],
 	"settings": {}
