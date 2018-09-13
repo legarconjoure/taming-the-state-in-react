@@ -1,11 +1,23 @@
 {
-	"folders": [
-		{
-			"path": "local-state-in-react"
-		},
-		{
-			"path": "search-a-list"
-		}
-	],
+    "folders": [
+        {
+            "path": "local-state-in-react"
+        },
+        {
+            "path": "search-a-list"
+        },
+        {
+            "path": "redux-standalone"
+        },
+        {
+            "path": "connecting-state"
+        },
+        {
+            "path": "naive-todo-react-redux"
+        },
+        {
+            "path": "sophisticated-todo-react-redux"
+        }
+    ],
 	"settings": {}
 }
